@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b85ca3bb-0965-4a3a-bd9a-69c7cf88e96b" name="Default Changelist" comment="" />
+    <list default="true" id="b85ca3bb-0965-4a3a-bd9a-69c7cf88e96b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/orderdish/src/main/resources/application-k8s.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdish/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +38,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orderdish" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MUM\EA\project2\git\hotel\orderdish" />
+      <recent name="F:\MUM\EA\project2\git\hotel\orderdish\src\main\resources" />
+      <recent name="F:\MUM\EA\project2\git\hotel\orderdish\src\main\java\com\edu\orderdish" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +60,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.foodordering">
+    <configuration name="OrderdishApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="orderdish" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.orderdish.OrderdishApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.zuul.ZuulApplication" />
@@ -72,6 +95,7 @@
       <item itemvalue="Spring Boot.foodordering" />
       <item itemvalue="Spring Boot.orderdish" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.OrderdishApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -85,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573954164452</updated>
       <workItem from="1573954169520" duration="5810000" />
-      <workItem from="1574004198377" duration="3342000" />
+      <workItem from="1574004198377" duration="5254000" />
     </task>
     <servers />
   </component>
