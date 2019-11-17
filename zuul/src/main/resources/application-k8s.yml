@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:9999}
+
+zuul:
+  routes:
+    testabc:
+      serviceId: test
+      path: /testabc/**
+    api-foodordering:
+      path: /api-foodordering/**
+      url: http://foodordering-service:8081/
+    api-orderdish:
+      path: /api-orderdish/**
+      url: http://orderdish-service:8082/
+
+auth-url: http://ea-auth-service:8888
+
+exclude-routes:
+  urls: /api-foodordering,/api-orderdish/
+
+api:
+  key: ${API-KEY}

@@ -19,9 +19,11 @@ public class OrderService implements IOrderService {
     @Autowired
     OrderDetailService orderDetailService;
 
-
     public Order getOrderById(long id) {
         return orderRepository.findById(id).get();
+    }
+    public List<Order> getOrderListByEmail(String email){
+        return orderRepository.getOrderListByEmail(email);
     }
 
     public Order updateOrder(Order order) {

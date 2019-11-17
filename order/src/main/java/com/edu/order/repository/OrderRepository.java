@@ -9,4 +9,7 @@ import java.util.List;
 public interface OrderRepository extends CrudRepository<Order,Long> {
     @Query(value = "select * from orders where email=?1 and status='DRAFT'",nativeQuery = true)
     List<Order> getOrderByEmail(String email);
+
+    @Query(value = "select * from orders where email=?1 ",nativeQuery = true)
+    List<Order> getOrderListByEmail(String email);
 }

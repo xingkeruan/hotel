@@ -1,0 +1,34 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: gateway-app
+
+zuul:
+  routes:
+    testabc:
+      serviceId: test
+      path: /testabc/**
+    api-foodordering:
+      path: /api-foodordering/**
+      url: http://localhost:8081/
+    api-orderdish:
+      path: /api-orderdish/**
+      url: http://localhost:8082/
+
+
+api:
+  key: ${API-KEY}
+#  ignored-services: "*"
+#  prefix: /eshop
+
+router:
+  auth:
+    url: http://auth-service:8888
+
+#exclude-routes:
+#  urls: http://localhost:9999/api-account/login,http://localhost:9999/api-account/register,http://localhost:9999/api-account/
+
+exclude-routes:
+  urls: /api-foodordering,/api-orderdish/
