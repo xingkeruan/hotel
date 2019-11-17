@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b85ca3bb-0965-4a3a-bd9a-69c7cf88e96b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/foodordering/src/main/java/com/edu/foodordering/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodordering/src/main/java/com/edu/foodordering/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodordering/src/main/resources/application-k8s.yml" beforeDir="false" afterPath="$PROJECT_DIR$/foodordering/src/main/resources/application-k8s.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/order/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/order/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/order/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/edu/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/edu/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application-k8s.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application-k8s.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/order" />
+  </component>
+  <component name="ProjectId" id="1TisHeWXVnjT9Epm3iU7UQ0i3OU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/order" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.orderdish">
+    <configuration name="foodordering" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="foodordering" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.foodordering.FoodorderingApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orderdish" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.order.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.foodordering" />
+      <item itemvalue="Spring Boot.orderdish" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b85ca3bb-0965-4a3a-bd9a-69c7cf88e96b" name="Default Changelist" comment="" />
+      <created>1573954164452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573954164452</updated>
+      <workItem from="1573954169520" duration="2550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

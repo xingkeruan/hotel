@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orderdish
+  labels:
+    app: orderdish
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: orderdish
+      labels:
+        app: orderdish
+    spec:
+      containers:
+        - name: orderdish
+          image: ruanxingke/orderdish
+          ports:
+            - containerPort: 8081
+          env:
+            - name: "API-KEY"
+              valueFrom:
+                secretKeyRef:
+                  name: secret
+                  key: service-api-key
+            - name: "PORT"
+              value: "8081"
+            - name: "DATABASE_HOST"
+              value: "mysql-service"
+            - name: "DATABASE_PORT"
+              value: "3306"
+  selector:
+    matchLabels:
+      app: orderdish
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: orderdish-service
+spec:
+  selector:
+    app: orderdish
+  ports:
+    - port: 8081
+      targetPort: 8081
+  type: ClusterIP
+
