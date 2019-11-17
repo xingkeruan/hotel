@@ -11,6 +11,18 @@ spring:
     url: jdbc:mysql://192.168.211.132:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: root
+
+  main:
+    allow-bean-definition-overriding: true
+
+  zipkin:
+    # zipkin服务端地址
+    base-url: http://zipkin
+  sleuth:
+    sampler:
+      # 采集频率 1.0表示100%采集
+      percentage: 1.0
+
 router:
   dish:
     url: http://localhost:8081

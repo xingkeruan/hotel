@@ -45,14 +45,15 @@ public class OrderService implements IOrderService {
         else{
             OrderDetail orderDetail1= null;
             for(OrderDetail orderDetail:order.getOrderDetailList()){
-                if(orderDetail.getDishid()==dishid)
-                    orderDetailService.dishSetCount(orderDetail.getId(),orderDetail.getCount()+1);
-                else {
-                    orderDetail1 = new OrderDetail(dishid,1);
-//                    orderDetailService.addOrderDetail(orderDetail);
+                if(orderDetail.getDishid()==dishid){
+                    orderDetail1 = orderDetail;
+                    break;
                 }
             }
             if(orderDetail1!=null) {
+                orderDetailService.dishSetCount(orderDetail1.getId(),orderDetail1.getCount()+1);
+            }else{
+                orderDetail1 = new OrderDetail(dishid,1);
                 orderDetail1.setCount(1);
                 orderDetail1.setDishid(dishid);
                 order.getOrderDetailList().add(orderDetail1);

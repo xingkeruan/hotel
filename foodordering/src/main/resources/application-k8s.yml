@@ -12,6 +12,9 @@ spring:
     username: root
     password: root
 
+  main:
+    allow-bean-definition-overriding: true
+    
     zipkin:
       # zipkin服务端地址
       base-url: http://zipkin
@@ -19,6 +22,7 @@ spring:
       sampler:
         # 采集频率 1.0表示100%采集
         percentage: 1.0
+
 
 router:
   dish:
