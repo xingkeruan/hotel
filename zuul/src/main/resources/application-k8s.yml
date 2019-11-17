@@ -20,3 +20,12 @@ exclude-routes:
 
 api:
   key: ${API-KEY}
+
+spring:
+  zipkin:
+    # zipkin服务端地址
+    base-url: http://zipkin
+  sleuth:
+    sampler:
+      # 采集频率 1.0表示100%采集
+      percentage: 1.0
